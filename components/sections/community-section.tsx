@@ -34,7 +34,7 @@ export function CommunitySection() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-gray-900 via-pink-900/20 to-gray-900">
+    <section id="community" className="py-20 px-4 bg-gradient-to-br from-gray-900 via-pink-900/20 to-gray-900">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

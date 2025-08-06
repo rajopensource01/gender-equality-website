@@ -2,11 +2,26 @@ import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import './globals.css'
+import Header from '@/components/sections/header'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Gender Equality Website - Promoting Women Empowerment & Social Justice',
+  description: 'A modern, interactive website dedicated to promoting gender equality, women\'s empowerment, and social justice. Built with Next.js 15, TypeScript, and AI-powered features.',
+  keywords: 'gender equality, women empowerment, social justice, feminism, equality, human rights',
+  authors: [{ name: 'rajopensource01' }],
+  creator: 'rajopensource01',
+  generator: 'Next.js 15',
+  openGraph: {
+    title: 'Gender Equality Website',
+    description: 'Promoting gender equality, women empowerment, and social justice',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gender Equality Website',
+    description: 'Promoting gender equality, women empowerment, and social justice',
+  },
 }
 
 export default function RootLayout({
@@ -25,7 +40,12 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main className="pt-16">
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
