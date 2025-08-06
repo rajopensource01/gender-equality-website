@@ -5,14 +5,14 @@ import './globals.css'
 import Header from '@/components/sections/header'
 
 export const metadata: Metadata = {
-  title: 'Gender Equality Website - Promoting Women Empowerment & Social Justice',
+  title: 'Ektr - Promoting Women Empowerment & Social Justice',
   description: 'A modern, interactive website dedicated to promoting gender equality, women\'s empowerment, and social justice. Built with Next.js 15, TypeScript, and AI-powered features.',
   keywords: 'gender equality, women empowerment, social justice, feminism, equality, human rights',
   authors: [{ name: 'rajopensource01' }],
   creator: 'rajopensource01',
   generator: 'Next.js 15',
   openGraph: {
-    title: 'Gender Equality Website',
+    title: 'Ektr-Promoting Women Empowerment & Social Justice',
     description: 'Promoting gender equality, women empowerment, and social justice',
     type: 'website',
     locale: 'en_US',
