@@ -1,4 +1,4 @@
-# Gender Equality Website 🌟
+# ektr- a Gender Equality Website 🌟
 
 A modern, interactive website dedicated to promoting gender equality, women's empowerment, and social justice. Built with Next.js 15, TypeScript, and AI-powered features.
 
