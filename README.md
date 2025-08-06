@@ -42,7 +42,7 @@ A modern, interactive website dedicated to promoting gender equality, women's em
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gender-equality-website.git
+   git clone https://github.com/rajopensource01/gender-equality-website.git
    cd gender-equality-website
    ```
 
